@@ -1,0 +1,6 @@
+dependencies:
+ pre:
+      - ./preinstall.sh
+test:
+  override:
+      - ./test_script.sh
